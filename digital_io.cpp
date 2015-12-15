@@ -157,4 +157,7 @@ void    DigitalOutput::State(bool state)
     }
 }
 
-
+void    DigitalOutput::Toggle()
+{
+    digitalWrite(pin_, !digitalRead(pin_));
+}
