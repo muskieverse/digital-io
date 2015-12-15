@@ -44,6 +44,7 @@ class   DigitalOutput
         void    Off();
         void    On();
         void    State(bool state);
+        void    Toggle();
         
         // Properties        
         void    Pin(int pin);
